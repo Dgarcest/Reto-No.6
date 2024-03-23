@@ -6,11 +6,11 @@
 <figure> <img src="https://i.postimg.cc/FRvCmpxx/image.png" alt="" width="800" height="auto"/></br>
 </div>
      
-*Una función matemática para calcular el volumen y el área superficial.
++ Una función matemática para calcular el volumen y el área superficial.
+
++ Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h
    
-*Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado r1, r2 y h
-   
-*Revise como utilizar el valor de pi usando *import math* y *math.pi*
++ Revise como utilizar el valor de pi usando *import math* y *math.pi*
 
 ```python
 import math
@@ -52,9 +52,11 @@ if __name__ == "__main__":
 <figure> <img src="https://i.postimg.cc/1t4MrzsL/image.png" alt="" width="800" height="auto"/></br>
 </div>
 
-* Una función matemática para calcular el área y el perimetro.
-* Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado `r`, `a` y `b`.
-* Revise como utilizar el valor de `pi` usando *import math* y *math.pi*
++ Una función matemática para calcular el área y el perimetro.
+
++ Cree dos funciones en python para calcular los valores antes establecidos, al ingresar por teclado `r`, `a` y `b`.
+  
++ Revise como utilizar el valor de `pi` usando *import math* y *math.pi*
 
 ```python
 import math
@@ -240,6 +242,31 @@ if __name__ == "__main__":
 
 9. Consultar qué es y cómo funciona *pip* en python.
 
-
+pip en python es una herramienta de python que viene por defecto, y basicamente es para instalar modulos en python ya que es un "sistema de gestion de paquetes" para administrar e instalar estos mismos paquetes, 
+al utilizar pip para instalar paquetes nos aseguramos de que la descarga es confiable, ya que si lo instalamos por otro metodo puede venir con virus, o cualquier cosa, y tambien nos aseguramos de descargarlo de
+su autor verdadero y no de terceros que hayan copiado y pegado el codigo y los esten pasando como si fuera de su autoria, ademas de descargar las versiones mas recientes de los paquetes y poder estar al tanto de ellas
 
 10. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
+
+Para instalar modulos lo unico que hay que hacer es escribir la palabra "pip" seguida de el nombre del modulo que se quiere instalar ejemplo:
+"pip install requests"
+
+Algunos de ejemplos de los modulos mas populares son:
+
++ Matplotlib (para utilizar diversos graficos como diagrama de barras, histogramas etc.)
+
++ TensorFlow (se utiliza en el cálculo numérico)
+
++ PyTorch (tambien cálculo numérico y tarjetas gráficas)
+
++ Keras (para redes neuronales)
+
++ Scikit-learn (modelos de aprendizaje autonomo o machine learning o análisis de datos)
+
++ Pandas (para ciencia de datos)
+
++ Seaborn (para visualizacion de datos estadísticos)
+
++ Bokeh (graficos)
+
++ NumPy (análisis de datos, vectores, matrices etc.)
